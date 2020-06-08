@@ -2,17 +2,20 @@
 
 Tasks : 
 1) Use MSTest to write tests 
-2) Automate Google Search using Selenium Wedriver
+2) Automate Google Search using Selenium Webdriver
 3) Automate Facebook Login and Navigation (to profiles and tabs) using Selenium Webdriver
 
 Workflow:
 
-a. TestInitialize 
+a. Fields
+1) Initialize instance of ChromeDriver class
+
+b. TestInitialize 
 1) Opens up the browser
 2) Maximize browser
 3) Set implicit time wait ( which stays for entire session)
 
-b. TestMethods 
+c. TestMethods 
 
 i. TestMethod0 (Google Search WorkFlow) 
 1) Go to the Url "http://google.com"
@@ -32,6 +35,6 @@ ii. TestMethod1 (Facebook Login WorkFlow)
 6) Verify if the Friends tab is displayed on current page
 7) Exception handling is also used
 
-c. TestCleanup : 
+d. TestCleanup : 
 1) Closes the browser
 2) Quits
