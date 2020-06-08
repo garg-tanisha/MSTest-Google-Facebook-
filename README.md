@@ -7,13 +7,14 @@ Tasks :
 
 Workflow:
 
-TestInitialize 
+a. TestInitialize 
 1) Opens up the browser
 2) Maximize browser
 3) Set implicit time wait ( which stays for entire session)
 
-TestMethods :
-i. TestMethod0 (Google Search WorkFlow) :
+b. TestMethods 
+
+i. TestMethod0 (Google Search WorkFlow) 
 1) Go to the Url "http://google.com"
 2) Finds the element with the Name "q" and enters "Regression Testing" there and press Enter (keyboard)
 3) Press browser's back button
@@ -22,7 +23,7 @@ i. TestMethod0 (Google Search WorkFlow) :
 6) Prints current page title from the browser
 7) Exception handling is also used
 
-ii. TestMethod1 (Facebook Login WorkFlow) :
+ii. TestMethod1 (Facebook Login WorkFlow) 
 1) Go to the Url "http://facebook.com"
 2) Finds the element with the Id "email" and fills "enter your email" there
 3) Finds the element with the Id "pass" and fills "password" there and press Enter (keyboard)
@@ -31,6 +32,6 @@ ii. TestMethod1 (Facebook Login WorkFlow) :
 6) Verify if the Friends tab is displayed on current page
 7) Exception handling is also used
 
-TestCleanup : 
+c. TestCleanup : 
 1) Closes the browser
 2) Quits
